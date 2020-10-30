@@ -11,9 +11,9 @@ for(let i=0; i<n;i++){
 
 let key = readline.question("enter key: ");
 
-compare(array,key);
+search(array,key);
 
-function compare(array, key){
+function search(array, key){
     let array1 = array;
     let key1 =key;
     let num = 0;
